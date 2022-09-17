@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		51CD64AE28D016E4009A6D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64AD28D016E4009A6D66 /* AppDelegate.swift */; };
 		51CD64B028D016E4009A6D66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64AF28D016E4009A6D66 /* SceneDelegate.swift */; };
-		51CD64B228D016E4009A6D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64B128D016E4009A6D66 /* ViewController.swift */; };
+		51CD64B228D016E4009A6D66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64B128D016E4009A6D66 /* HomeViewController.swift */; };
 		51CD64B528D016E4009A6D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CD64B328D016E4009A6D66 /* Main.storyboard */; };
 		51CD64B728D016E7009A6D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CD64B628D016E7009A6D66 /* Assets.xcassets */; };
 		51CD64BA28D016E7009A6D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CD64B828D016E7009A6D66 /* LaunchScreen.storyboard */; };
 		51CD64C528D016E7009A6D66 /* StarbucksHomeScreenRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64C428D016E7009A6D66 /* StarbucksHomeScreenRemakeTests.swift */; };
 		51CD64CF28D016E7009A6D66 /* StarbucksHomeScreenRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64CE28D016E7009A6D66 /* StarbucksHomeScreenRemakeUITests.swift */; };
 		51CD64D128D016E7009A6D66 /* StarbucksHomeScreenRemakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64D028D016E7009A6D66 /* StarbucksHomeScreenRemakeUITestsLaunchTests.swift */; };
+		51CD64E128D02014009A6D66 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64E028D02014009A6D66 /* ScanViewController.swift */; };
+		51CD64E328D0272F009A6D66 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64E228D0272F009A6D66 /* MainTabBarController.swift */; };
+		51CD64E628D056D8009A6D66 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64E528D056D8009A6D66 /* HomeHeaderView.swift */; };
+		51CD64E828D08C48009A6D66 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64E728D08C47009A6D66 /* Factories.swift */; };
+		51CD64EA28D15725009A6D66 /* PlaceholderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64E928D15725009A6D66 /* PlaceholderVc.swift */; };
+		51CD64EC28D1714B009A6D66 /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64EB28D1714B009A6D66 /* TileViewController.swift */; };
+		51CD64EE28D17255009A6D66 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD64ED28D17255009A6D66 /* TileView.swift */; };
+		51D9F9B128D2B479009672C1 /* RewardsTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9B028D2B479009672C1 /* RewardsTileViewController.swift */; };
+		51D9F9B328D2B48B009672C1 /* RewardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9B228D2B48B009672C1 /* RewardTileView.swift */; };
+		51D9F9B528D2BAE3009672C1 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9B428D2BAE3009672C1 /* BalanceView.swift */; };
+		51D9F9B728D4096A009672C1 /* RewardsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9B628D4096A009672C1 /* RewardsGraphView.swift */; };
+		51D9F9BA28D4414B009672C1 /* StarAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9B928D4414B009672C1 /* StarAndPoints.swift */; };
+		51D9F9BC28D44622009672C1 /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9BB28D44622009672C1 /* StarRewardsRow.swift */; };
+		51D9F9BE28D44E2E009672C1 /* StarRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9BD28D44E2E009672C1 /* StarRewardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +53,7 @@
 		51CD64AA28D016E4009A6D66 /* StarbucksHomeScreenRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksHomeScreenRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CD64AD28D016E4009A6D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51CD64AF28D016E4009A6D66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51CD64B128D016E4009A6D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51CD64B128D016E4009A6D66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		51CD64B428D016E4009A6D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51CD64B628D016E7009A6D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CD64B928D016E7009A6D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		51CD64CA28D016E7009A6D66 /* StarbucksHomeScreenRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksHomeScreenRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CD64CE28D016E7009A6D66 /* StarbucksHomeScreenRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksHomeScreenRemakeUITests.swift; sourceTree = "<group>"; };
 		51CD64D028D016E7009A6D66 /* StarbucksHomeScreenRemakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksHomeScreenRemakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51CD64E028D02014009A6D66 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		51CD64E228D0272F009A6D66 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		51CD64E528D056D8009A6D66 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		51CD64E728D08C47009A6D66 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		51CD64E928D15725009A6D66 /* PlaceholderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderVc.swift; sourceTree = "<group>"; };
+		51CD64EB28D1714B009A6D66 /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		51CD64ED28D17255009A6D66 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		51D9F9B028D2B479009672C1 /* RewardsTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileViewController.swift; sourceTree = "<group>"; };
+		51D9F9B228D2B48B009672C1 /* RewardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileView.swift; sourceTree = "<group>"; };
+		51D9F9B428D2BAE3009672C1 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		51D9F9B628D4096A009672C1 /* RewardsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphView.swift; sourceTree = "<group>"; };
+		51D9F9B928D4414B009672C1 /* StarAndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPoints.swift; sourceTree = "<group>"; };
+		51D9F9BB28D44622009672C1 /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
+		51D9F9BD28D44E2E009672C1 /* StarRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +127,10 @@
 		51CD64AC28D016E4009A6D66 /* StarbucksHomeScreenRemake */ = {
 			isa = PBXGroup;
 			children = (
-				51CD64AD28D016E4009A6D66 /* AppDelegate.swift */,
-				51CD64AF28D016E4009A6D66 /* SceneDelegate.swift */,
-				51CD64B128D016E4009A6D66 /* ViewController.swift */,
-				51CD64B328D016E4009A6D66 /* Main.storyboard */,
-				51CD64B628D016E7009A6D66 /* Assets.xcassets */,
-				51CD64B828D016E7009A6D66 /* LaunchScreen.storyboard */,
-				51CD64BB28D016E7009A6D66 /* Info.plist */,
+				51CD64DD28D017EF009A6D66 /* Files */,
+				51CD64E428D05627009A6D66 /* Home */,
+				51CD64E228D0272F009A6D66 /* MainTabBarController.swift */,
+				51CD64E028D02014009A6D66 /* ScanViewController.swift */,
 			);
 			path = StarbucksHomeScreenRemake;
 			sourceTree = "<group>";
@@ -125,6 +150,55 @@
 				51CD64D028D016E7009A6D66 /* StarbucksHomeScreenRemakeUITestsLaunchTests.swift */,
 			);
 			path = StarbucksHomeScreenRemakeUITests;
+			sourceTree = "<group>";
+		};
+		51CD64DD28D017EF009A6D66 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				51CD64AD28D016E4009A6D66 /* AppDelegate.swift */,
+				51CD64AF28D016E4009A6D66 /* SceneDelegate.swift */,
+				51CD64B328D016E4009A6D66 /* Main.storyboard */,
+				51CD64B628D016E7009A6D66 /* Assets.xcassets */,
+				51CD64B828D016E7009A6D66 /* LaunchScreen.storyboard */,
+				51CD64BB28D016E7009A6D66 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		51CD64E428D05627009A6D66 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51D9F9B828D440FB009672C1 /* StarRewards */,
+				51D9F9AF28D2B397009672C1 /* Rewards */,
+				51CD64B128D016E4009A6D66 /* HomeViewController.swift */,
+				51CD64E728D08C47009A6D66 /* Factories.swift */,
+				51CD64E528D056D8009A6D66 /* HomeHeaderView.swift */,
+				51CD64E928D15725009A6D66 /* PlaceholderVc.swift */,
+				51CD64EB28D1714B009A6D66 /* TileViewController.swift */,
+				51CD64ED28D17255009A6D66 /* TileView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		51D9F9AF28D2B397009672C1 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				51D9F9B028D2B479009672C1 /* RewardsTileViewController.swift */,
+				51D9F9B228D2B48B009672C1 /* RewardTileView.swift */,
+				51D9F9B628D4096A009672C1 /* RewardsGraphView.swift */,
+				51D9F9B428D2BAE3009672C1 /* BalanceView.swift */,
+			);
+			name = Rewards;
+			sourceTree = "<group>";
+		};
+		51D9F9B828D440FB009672C1 /* StarRewards */ = {
+			isa = PBXGroup;
+			children = (
+				51D9F9B928D4414B009672C1 /* StarAndPoints.swift */,
+				51D9F9BB28D44622009672C1 /* StarRewardsRow.swift */,
+				51D9F9BD28D44E2E009672C1 /* StarRewardsView.swift */,
+			);
+			name = StarRewards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +332,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CD64B228D016E4009A6D66 /* ViewController.swift in Sources */,
+				51D9F9B128D2B479009672C1 /* RewardsTileViewController.swift in Sources */,
+				51CD64E828D08C48009A6D66 /* Factories.swift in Sources */,
+				51CD64E628D056D8009A6D66 /* HomeHeaderView.swift in Sources */,
+				51CD64EC28D1714B009A6D66 /* TileViewController.swift in Sources */,
+				51D9F9BE28D44E2E009672C1 /* StarRewardsView.swift in Sources */,
+				51D9F9BA28D4414B009672C1 /* StarAndPoints.swift in Sources */,
+				51CD64B228D016E4009A6D66 /* HomeViewController.swift in Sources */,
+				51CD64E128D02014009A6D66 /* ScanViewController.swift in Sources */,
+				51CD64E328D0272F009A6D66 /* MainTabBarController.swift in Sources */,
+				51D9F9B328D2B48B009672C1 /* RewardTileView.swift in Sources */,
+				51D9F9BC28D44622009672C1 /* StarRewardsRow.swift in Sources */,
 				51CD64AE28D016E4009A6D66 /* AppDelegate.swift in Sources */,
+				51CD64EA28D15725009A6D66 /* PlaceholderVc.swift in Sources */,
+				51CD64EE28D17255009A6D66 /* TileView.swift in Sources */,
 				51CD64B028D016E4009A6D66 /* SceneDelegate.swift in Sources */,
+				51D9F9B728D4096A009672C1 /* RewardsGraphView.swift in Sources */,
+				51D9F9B528D2BAE3009672C1 /* BalanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
